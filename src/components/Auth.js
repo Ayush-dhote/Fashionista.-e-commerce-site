@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 
 const Auth = () => {
     
-      const [users, setUsers] = useState([]);  
+    const [users, setUsers] = useState([]);  
     //   console.log(users);
     const navigate=useNavigate()
 
@@ -16,8 +16,8 @@ const Auth = () => {
           password: e.target.password.value
         };
 
-        const updatedUsers = [...users, newUser];
-        // console.log(updatedUsers);
+        let updatedUsers = [...users, newUser];
+        console.log(updatedUsers);
 
         localStorage.setItem('users', JSON.stringify(updatedUsers));
         setUsers(updatedUsers);
