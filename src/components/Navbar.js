@@ -20,6 +20,8 @@ const Navbar = () => {
         navi('/auth')
     }
     const name=sessionStorage.getItem('user-email')
+
+    
   return (
     <div id='nav'>
             <div id='left'><p>Fashionista<span>.</span></p></div>

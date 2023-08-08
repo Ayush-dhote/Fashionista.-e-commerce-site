@@ -22,7 +22,18 @@ export const ProductContextProvider=(props)=>{
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId] - 1}))
     }
 
-    const contextValue={cartItems,addToCart,removeFromCart}
+    const subTotal=()=>{
+        let subTotal=0
+        for(let item in cartItems){
+            if(cartItems[item]>0){
+                let total=Products.find((product)=> product.id === Number(item))
+                subTotal += cartItems[item]*total.price
+            }
+        }
+        return subTotal;
+    }
+
+    const contextValue={cartItems,addToCart,removeFromCart,subTotal}
 
     return <productContext.Provider value={contextValue}>{props.children}</productContext.Provider>
 }

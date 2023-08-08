@@ -72,4 +72,67 @@ export const Products = [
       description:"Women's Hoodie"
 
     },
+    {
+      id: 9,
+      productName: "Denim Jeans",
+      price: 999,
+      productImage: product1,
+      description:"Men Slim Fit Jeans"
+    },
+    {
+      id: 10,
+      productName: "Nike Downshifter",
+      price: 1999.0,
+      productImage: product2,
+      description:"Mens Gym Shoes"
+
+    },
+    {
+      id: 11,
+      productName: "Winter jacket",
+      price: 699.0,
+      productImage: product3,
+      description:"Solid Puffer Jacket"
+
+    },
+    {
+      id: 12,
+      productName: "classic cap",
+      price: 228.0,
+      productImage: product4,
+      description:"Unisex Sports Cap"
+
+    },
+    {
+      id: 13,
+      productName: "Levis jeans",
+      price: 1999,
+      productImage: product5,
+      description:"Men Slim Fit Jeans"
+
+    },
+    {
+      id: 14,
+      productName: "Yellow hoodie",
+      price: 1499,
+      productImage: product6,
+      description:"Hooded Sweatshirt"
+
+    },
+    {
+      id: 15,
+      productName: "Red mens T-shirt",
+      price: 1200.0,
+      productImage: product7,
+      description:"Red Cotton Tshirt"
+
+    },
+    {
+      id: 16,
+      productName: "H&M Jacket",
+      price: 4000,
+      productImage: product8,
+      description:"Women's Hoodie"
+
+    },
   ];

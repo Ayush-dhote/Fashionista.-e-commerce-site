@@ -5,6 +5,8 @@ import Product from './Product'
 import { Products } from './Products'
 import '../products.css'
 import Navbar from './Navbar'
+import { useNavigate } from 'react-router'
+import Footer from './Footer'
 
 const Home = () => {
 
@@ -17,7 +19,8 @@ const Home = () => {
                return <Product key={element.id} data={element}/>
             })}
         </div>
-        <div className='footer'></div>
+
+        <Footer/>
     </div>
   )
 }

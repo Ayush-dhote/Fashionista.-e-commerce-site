@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react';
 import '../auth.css'
 import { useNavigate } from 'react-router';
 
 const Auth = () => {
     
     const [users, setUsers] = useState([]);  
+    useEffect(() => {
+      const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
+      setUsers(existingUsers);
+    }, []);
+    
+    
     //   console.log(users);
     const navigate=useNavigate()
 
@@ -15,15 +22,13 @@ const Auth = () => {
           email: e.target.email.value,
           password: e.target.password.value
         };
+        setUsers((prevUsers) => [...prevUsers, newUser])
 
-        let updatedUsers = [...users, newUser];
-        console.log(updatedUsers);
-
-        localStorage.setItem('users', JSON.stringify(updatedUsers));
-        setUsers(updatedUsers);
+        localStorage.setItem('users', JSON.stringify([...users,newUser]));
         alert("user registered")
-        e.target.reset();
+        e.target.reset(); 
       };
+  
 
       function loginHandle(event){
         event.preventDefault()
