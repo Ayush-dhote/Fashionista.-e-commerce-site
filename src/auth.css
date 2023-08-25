@@ -73,10 +73,6 @@ input[type="text"], input[type="email"], input[type="password"] {
 /* Media Query for Column Layout */
 
 @media (max-width: 600px) {
-  html, body {
-    min-width: 100%;
-    min-height: 100%;
-  }
 
   #main {
     min-width: 100vw;
