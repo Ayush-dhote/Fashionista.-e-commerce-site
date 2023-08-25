@@ -87,13 +87,14 @@ input[type="text"], input[type="email"], input[type="password"] {
     width: 80vw;
     left: 50%;
     transform: translateX(-50%);
+    top: initial;
   }
   #register{
     /* margin-top: 30px; */
-    top: 5vh;
+    top: 50vh;
   }
   #login{
       top: 105vh;
-    
+      margin-bottom: 20px;
   }
 }
