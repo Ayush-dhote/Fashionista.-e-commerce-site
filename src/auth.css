@@ -81,7 +81,6 @@ input[type="text"], input[type="email"], input[type="password"] {
   #main {
     min-width: 100vw;
     background-color: #F9F9F0;
-    padding-bottom: 20px;
   }
   #register, #login {
     position: absolute;
