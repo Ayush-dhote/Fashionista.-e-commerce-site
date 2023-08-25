@@ -84,14 +84,13 @@ input[type="text"], input[type="email"], input[type="password"] {
   }
   #register, #login {
     min-height: 15vh;
-    min-width: 40vw;
-    width: 50vw;
+    min-width: 50vw;
     left: 50%;
     transform: translateX(-50%);
     top: initial;
   }
   #register{
-    top: 7vh;
+    top: 0vh;
   }
   #login{
       top: 75vh;
