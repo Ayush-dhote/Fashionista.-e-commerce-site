@@ -94,11 +94,6 @@ input[type="text"], input[type="email"], input[type="password"] {
   }
   #login{
       top: 105vh;
-      margin-bottom: 20px;
-  }
-  #foot{
-      bottom: 0;
-      width: 100vw;
-      height: 30vh;
+    
   }
 }

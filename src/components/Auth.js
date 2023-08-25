@@ -65,7 +65,6 @@ const Auth = () => {
                 <input id="lbutton" type="submit"></input>
             </form>
         </div>
-        <div id="foot"></div>
     </div>
   )
 }
