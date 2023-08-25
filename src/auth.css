@@ -83,7 +83,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #F9F9F0;
   }
   #register, #login {
-    min-width: 50vw;
+    height: auto;
+    width: 80vw;
     left: 50%;
     transform: translateX(-50%);
     top: initial;
