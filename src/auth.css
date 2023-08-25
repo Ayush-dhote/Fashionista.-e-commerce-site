@@ -91,10 +91,9 @@ input[type="text"], input[type="email"], input[type="password"] {
   }
   #register{
     /* margin-top: 30px; */
-    top: 30vh;
+    top: 20vh;
   }
   #login{
       top: 80vh;
-      margin-bottom: 20px;
   }
 }
