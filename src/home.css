@@ -82,3 +82,12 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:600px){
+    .islog{
+        /* display: none; */
+    }
+    #cart{
+        display: none;
+    }
+}

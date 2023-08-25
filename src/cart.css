@@ -140,3 +140,7 @@ input[type='number']::-webkit-outer-spin-button {
     cursor: pointer;
     border: none;
 }
+
+@media (max-width: 600px){
+    
+}

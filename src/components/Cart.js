@@ -7,7 +7,13 @@ import CartItems from './CartItems'
 import Footer from './Footer'
 
 const Cart = () => {
+  const log=document.getElementsByClassName('islog')
   const {cartItems,subTotal}=useContext(productContext)
+  let location=window.location.pathname
+  // console.log(log);
+  if(location==='/cart' && log.length>0){
+      log[0].style.display='none'
+  }
   return (
     <div>
      <Navbar/>
