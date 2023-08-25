@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { productContext } from './Context'
@@ -21,6 +21,15 @@ const Navbar = () => {
     }
     const name=sessionStorage.getItem('user-email')
 
+    let location=window.location.pathname
+    
+    useEffect(()=>{
+        const log= document.getElementById('right')
+        // console.log(log);
+        if(location==='/cart'){
+            log.style.display='none'
+        }
+    },[location])
     
   return (
     <div id='nav'>
