@@ -74,6 +74,10 @@
   }
 
   @media (max-width:600px){
+    .titleText{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
     .products {
       grid-template-columns: 1fr 1fr; /* Display 2 products per row */
       padding: 0;
