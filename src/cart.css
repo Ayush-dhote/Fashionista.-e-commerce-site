@@ -166,4 +166,13 @@ input[type='number']::-webkit-outer-spin-button {
     .pn{
         margin-left: 50px;
     }
+    .inc_denc{
+        width: 20px;
+        height: 20px;
+    }
+    #num{
+        width: 20px;
+        height: 20px;
+    }
+
 }
