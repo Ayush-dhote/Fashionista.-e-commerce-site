@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from 'react'
-import { useRef } from 'react'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { productContext } from './Context'
@@ -32,14 +31,6 @@ const Navbar = () => {
             logo.style.justifyContent='center'
         }
     },[location])
-
-    const leftDivRef = useRef(null);
-    const accessDiv = () => {
-      if (leftDivRef.current) {
-        // Manipulate the div element here
-        leftDivRef.current.style.display = 'none';
-      }
-    };
     
   return (
     <div id='nav'>
