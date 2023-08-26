@@ -15,15 +15,16 @@ html,body{
 }
 #nav{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 100vw;
     height: 60px;
     background-color: rgb(37,36,36);
 }
 #nav #left{
+    padding-left: 50px;
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 30vw;
     height: inherit;
     /* background-color: aliceblue; */
 }
@@ -38,10 +39,11 @@ html,body{
     color: yellow;
 }
 #nav #right{
+    padding-left: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 30%;
+    justify-content: space-evenly;
+    width: 30vw;
     height: inherit;
     /* background-color: aliceblue; */
     text-transform: capitalize;
