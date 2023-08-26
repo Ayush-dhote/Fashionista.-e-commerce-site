@@ -74,9 +74,6 @@
   }
 
   @media (max-width:600px){
-    .titleText{
-      margin-top: 0;
-    }
     .products {
       grid-template-columns: 1fr 1fr; /* Display 2 products per row */
       padding: 0;
@@ -85,7 +82,7 @@
       border-radius: 0;
       width: 49vw;
       border: 1px solid rgba(0, 0, 0, 0.135);
-      /* margin-top: 10px; */
+      margin-top: 0px;
     }
     .img{
       width: 49vw;
