@@ -18,6 +18,7 @@ const Menu = () => {
   return (
     <>
         <div id='menu'>
+                <i class="ri-close-line"></i>
                 {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>}
                 {isLoggedIn ? (
                     <button className='islog' onClick={handleLogout}>Logout</button>
