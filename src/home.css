@@ -99,13 +99,13 @@ html,body{
     /* background-color: aliceblue; */
     text-transform: capitalize;
 }
-#nav #right p{
+#nav #right #menu p{
     color: #F9F9F0;
     font-weight: 400;
     font-family: gilroy;
     font-size: 18px;
 }
-#nav #right .islog{
+#nav #right #menu .islog{
     width: 70px;
     height: 25px;
     background-color: rgb(233,171,57);
