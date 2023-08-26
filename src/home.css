@@ -81,7 +81,7 @@ html,body{
     position: absolute;
     top: 0;
     width: 50vw;
-    height: 30vh;
+    height: 37vh;
     background-color: rgb(251, 251, 251);
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
     backdrop-filter: blur(10px); /* Apply background blur */
