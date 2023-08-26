@@ -87,6 +87,7 @@
     .img{
       width: 49vw;
       border-radius: 0;
+      background-color: #E6D8C8;
     }
     .product .description{
       justify-content: space-around;
