@@ -175,10 +175,11 @@ input[type='number']::-webkit-outer-spin-button {
         height: 20px;
     }
     .subTotal{
-        width: 37.5vw;
+        width: 45vw;
     }
     .btn{
-        width: 37.5vw;
+        width: 45vw;
+        margin: 0;
     }
 
 }
