@@ -112,6 +112,7 @@ html,body{
         width: 50vw;
     }
     #i{
-        margin-top: 4px;
+        margin-top: 5px;
+        font-size: 20px;
     }
 }
