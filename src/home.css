@@ -77,14 +77,15 @@ html,body{
     margin-left: 5px;
 }
 #menu{
-    right: -15vw;
+    right: -30vw;
     position: absolute;
-    width: 15vw;
+    width: 30vw;
     height: 50vh;
     background-color: aliceblue;
+    display: none;
+    
 }
 #icon{
-
     display: none;
     color: white;
 }

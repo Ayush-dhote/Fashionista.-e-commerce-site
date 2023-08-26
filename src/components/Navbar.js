@@ -63,7 +63,9 @@ const Navbar = () => {
             menu.style.right='-30'
         }
         icon.addEventListener('click',()=>{
+            menu.style.display='initial'
             menu.style.right='0'
+            menu.style.transition="all cubic-bezier(0.19, 1, 0.22, 1) 1s;"
         })
     },[size])
   return (
