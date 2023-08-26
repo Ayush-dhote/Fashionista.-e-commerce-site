@@ -15,16 +15,12 @@ const Product = (props) => {
         <div className='img'>
         <img src={productImage}/>
         </div>
-        <div className='details'>
-          <div className='description'>
+        <div className='description'>
             <p>{productName}</p>
             <p>₹ {price}</p>
-          </div>
-          <div><small className='des'>{description}</small></div>
-          <div>
-          <button className='addToCartBttn' onClick={()=> addToCart(id)}>Add To Cart {quantity>0 && <>({quantity})</>} </button>
-          </div>
         </div>
+        <small className='des'>{description}</small>
+        <button className='addToCartBttn' onClick={()=> addToCart(id)}>Add To Cart {quantity>0 && <>({quantity})</>} </button>
     </div>
   )
 }
