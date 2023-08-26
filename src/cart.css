@@ -148,13 +148,13 @@ input[type='number']::-webkit-outer-spin-button {
     }
     .quantity{
         display: block;
-        padding-left: 12px;
+        padding-left: 13px;
         min-height: auto;
     }
     .total{
         display: block;
         min-height: auto;
-        padding: 12px;  
+        padding: 13px;  
     }
     .image{
         width: 25vw;
@@ -162,5 +162,8 @@ input[type='number']::-webkit-outer-spin-button {
     }
     .image img{
         width: 50px;
+    }
+    .pn{
+        margin-left: 50px;
     }
 }
