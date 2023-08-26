@@ -10,6 +10,7 @@ import Footer from './Footer'
 
 const Home = () => {
 
+    
   return (
     <div id='home'>
         <Navbar />

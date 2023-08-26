@@ -130,12 +130,16 @@ html,body{
     margin-left: 5px;
 }
 #menu{
-    right: -30vw;
+    right: -15vw;
     position: absolute;
-    width: 30vw;
+    width: 15vw;
     height: 50vh;
     background-color: aliceblue;
+}
+#icon{
 
+    display: none;
+    color: white;
 }
 .titleText{
     margin-top: 40px;
