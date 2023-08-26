@@ -111,8 +111,9 @@ html,body{
     margin-top: 3px;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    color: white;
 }
 #base{
     position: absolute;
