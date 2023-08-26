@@ -14,10 +14,11 @@
     justify-content: center;
     width: 230px;
     height: 260px;
-    background-color: #FAE0E4;
+    /* background-color: #FAE0E4; */
     border-radius: 5px;
   }
   .product {
+    background-color: #FAE0E4;
     border-radius: 5px;
     width: 230px;
     height: 350px;
@@ -79,6 +80,7 @@
     }
     .product{
       border-radius: 0;
-      width: 50vw;
+      width: 49vw;
+      border: 1px solid rgba(0, 0, 0, 0.135);
     }
   }
