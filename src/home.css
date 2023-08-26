@@ -115,6 +115,9 @@ html,body{
     align-items: center;
     color: white;
 }
+.men i{
+    font-size: 18px;
+}
 #base{
     position: absolute;
     bottom: 3%;

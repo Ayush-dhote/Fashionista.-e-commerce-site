@@ -22,16 +22,16 @@ const Menu = () => {
                 {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>} <i class="ri-close-line"></i> 
                 </div>
                 <div className='men'>
-                <i class="ri-box-1-line"></i><p>Orders</p>
+                <p>Orders</p><i class="ri-truck-line"></i>
                 </div>
                 <div className='men'>
-                <i class="ri-account-circle-line"></i><p>Accounts</p>
+                <p>Accounts</p><i class="ri-account-circle-line"></i>
                 </div>
                 <div className='men'>
-                <i class="ri-settings-4-line"></i><p>Settings</p>
+                <p>Settings</p><i class="ri-settings-4-line"></i>
                 </div>
                 <div className='men'>
-                <i class="ri-information-line"></i><p>About Us</p>
+                <p>About Us</p><i class="ri-information-line"></i>
                 </div>
                 <div id='base'>
                     {isLoggedIn ? (
