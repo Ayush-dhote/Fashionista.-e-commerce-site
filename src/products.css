@@ -87,8 +87,8 @@
     .img{
       width: 49vw;
       border-radius: 0;
-      background-color: #B0B0B6;
-      box-shadow: inset 0px 0px 40px 10px rgba(0, 0, 0, 0.103);
+      background-color: #CFCFCB;
+      box-shadow: inset 0px 0px 40px 10px rgba(0, 0, 0, 0.153);
     }
     .product .description{
       justify-content: space-around;
