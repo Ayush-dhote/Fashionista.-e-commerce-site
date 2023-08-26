@@ -88,6 +88,7 @@
       width: 49vw;
       border-radius: 0;
       background-color: #E6D8C8;
+      box-shadow: inset 0px 0px 40px 10px rgba(0, 0, 0, 0.153);
     }
     .product .description{
       justify-content: space-around;
