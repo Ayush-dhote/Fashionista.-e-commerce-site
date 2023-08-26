@@ -34,10 +34,10 @@ const Navbar = () => {
     
   return (
     <div id='nav'>
-            <div id='left' ref={leftDivRef}><p>Fashionista<span>.</span></p></div>
+            <div id='left'><p>Fashionista<span>.</span></p></div>
             <div id='right'>
                 {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>}
-                <Link to='/cart' id='cart'><span>cart</span> <img id='cp' src="../cart.png" alt="Image" /></Link>
+                <Link to='/cart' id='cart'><span>cart</span> <img id='cp' src="../cart.png" /></Link>
                 {isLoggedIn ? (
                     <button className='islog' onClick={handleLogout}>Logout</button>
                 ) : (
