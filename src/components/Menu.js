@@ -18,13 +18,28 @@ const Menu = () => {
   return (
     <>
         <div id='menu'>
-                <i class="ri-close-line"></i>
-                {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>}
-                {isLoggedIn ? (
-                    <button className='islog' onClick={handleLogout}>Logout</button>
-                ) : (
-                    <button className='islog' onClick={handleLogin}>Login</button>
-                )}
+                <div className='men' id='header'>
+                {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>} <i class="ri-close-line"></i> 
+                </div>
+                <div className='men'>
+                    <p>Orders</p>
+                </div>
+                <div className='men'>
+                    <p>Accounts</p>
+                </div>
+                <div className='men'>
+                    <p>Settings</p>
+                </div>
+                <div className='men'>
+                    <p>About Us</p>
+                </div>
+                <div id='base'>
+                    {isLoggedIn ? (
+                        <button className='islog' onClick={handleLogout}>Logout</button>
+                    ) : (
+                        <button className='islog' onClick={handleLogin}>Login</button>
+                    )}
+                </div>
         </div>
     </>
   )

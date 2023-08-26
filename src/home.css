@@ -57,12 +57,13 @@ html,body{
 #nav #right .islog{
     width: 70px;
     height: 25px;
-    background-color: rgb(233,171,57);
+    background-color: rgb(0, 0, 0);
     color: #F9F9F0;
     border: none;
     border-radius: 5px;
     font-family: gilroy;
     font-weight: 700;
+    cursor: pointer;
 }
 #cart{
     text-decoration: none;
@@ -82,19 +83,42 @@ html,body{
     right: -30vw;
     position: absolute;
     top: 0;
-    width: 50vw;
-    height: 45vh;
+    width: 49vw;
+    height: 50vh;
     background-color: rgba(0, 0, 0, 0.419);
     backdrop-filter: blur(10px); /* Apply background blur */
     border-radius: 10px;
     display: none; 
     z-index: 999;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s ease-in-out; 
-    
 }
 #icon{
     display: none;
     color: white;
+}
+#header{
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+}
+.men{
+    height: 40px;
+    background-color: #0000002a;
+    margin-top: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#base{
+    position: absolute;
+    bottom: 3%;
+    right: 7%;
+
 }
 .titleText{
     width: max-content;
@@ -129,6 +153,10 @@ html,body{
     #i{
         margin-top: 5px;
         font-size: 20px;
+    }
+    .islog:hover{
+        background-color: white;
+        color: black;
     }
     .titleText h2{
         font-size: 1rem;
