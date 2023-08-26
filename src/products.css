@@ -96,6 +96,7 @@
     }
     .product .description{
       justify-content: space-around;
+      font-size: 13px;
     }
     .des{
       margin-left: -65px;
