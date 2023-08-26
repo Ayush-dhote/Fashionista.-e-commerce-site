@@ -30,19 +30,19 @@ const Home = () => {
             <h2>Newly Arrived Products</h2>
             <h2>Newly Arrived Products</h2>
         </div>
-        {/* <div id="loader">
+        <div id="loader">
         <div id="wrapperload">
             <div class="elem">
-            <h1>Newly Arrived</h1>
+            <h1>Upgrade Your Wardrobe</h1>
             </div>
             <div class="elem">
-                <h1>UI/UX Designer</h1>
+                <h1>Unleash Your Fashionista.</h1>
             </div>
             <div class="elem">
-                <h1>loves to help brands.</h1>
+                <h1>Fashion at Your Fingertips.</h1>
             </div>
         </div>
-    </div> */}
+    </div>
         <div className='products'>
             {Products.map((element)=>{
                return <Product key={element.id} data={element}/>
