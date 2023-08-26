@@ -25,7 +25,7 @@ const Navbar = () => {
     let location=window.location.pathname
     useEffect(()=>{
         const log= document.getElementById('right')
-        const logo= document.getElementById('nav')
+        const logo= document.getElementById('left')
         console.log(log);
         if(location==='/cart'){
             log.style.display='none'
