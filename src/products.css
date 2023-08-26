@@ -74,6 +74,10 @@
   }
 
   @media (max-width:600px){
+    .titleText{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
     .products {
       grid-template-columns: 1fr 1fr; /* Display 2 products per row */
       padding: 0;
@@ -94,11 +98,12 @@
       justify-content: space-around;
     }
     .des{
-      margin-left: -90px;
+      margin-left: -70px;
     }
     .addToCartBttn{
       margin-left: -60px;
       border: 1.5px solid rgb(19, 19, 19);
       margin-bottom: 10px;
+      margin-top: 10px;
     }
   }
