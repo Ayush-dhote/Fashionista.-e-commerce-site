@@ -1,5 +1,5 @@
   .products {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100vw;
     height: auto;
     display: grid;
@@ -70,4 +70,15 @@
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
+  }
+
+  @media (max-width:600px){
+    .products {
+      grid-template-columns: 1fr 1fr; /* Display 2 products per row */
+      padding: 0;
+    }
+    .product{
+      border-radius: 0;
+      width: 50vw;
+    }
   }
