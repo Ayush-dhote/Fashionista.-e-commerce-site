@@ -32,10 +32,18 @@ const Navbar = () => {
             logo.style.justifyContent='center'
         }
     },[location])
+
+    const leftDivRef = useRef(null);
+    const accessDiv = () => {
+      if (leftDivRef.current) {
+        // Manipulate the div element here
+        leftDivRef.current.style.display = 'none';
+      }
+    };
     
   return (
     <div id='nav'>
-            <div id='left'><p>Fashionista<span>.</span></p></div>
+            <div id='left' ref={leftDivRef}><p>Fashionista<span>.</span></p></div>
             <div id='right'>
                 {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>}
                 <Link to='/cart' id='cart'><span>cart</span> <img id='cp' src="../cart.png" alt="Image" /></Link>
@@ -44,7 +52,6 @@ const Navbar = () => {
                 ) : (
                     <button className='islog' onClick={handleLogin}>Login</button>
                 )}
-                <div></div>
             </div>
         </div>
   )
