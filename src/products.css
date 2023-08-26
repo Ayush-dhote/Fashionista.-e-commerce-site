@@ -100,7 +100,8 @@
     }
     .des{
       margin-left: -65px;
-      font-weight: 400;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.511);
     }
     .addToCartBttn{
       margin-left: -60px;
