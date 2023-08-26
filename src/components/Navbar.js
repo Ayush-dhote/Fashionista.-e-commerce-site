@@ -51,6 +51,7 @@ const Navbar = () => {
         const butt=document.getElementsByClassName('islog')
         const icon=document.getElementById('icon')
         const menu=document.getElementById('menu')
+        const cancel=document.getElementById('cancel')
         console.log(user);
         if(size<=600){
             butt[0].style.display="none"
@@ -60,13 +61,17 @@ const Navbar = () => {
             butt[0].style.display="initial"
             user[0].style.display="initial"
             icon.style.display='none'
-            menu.style.right='-30'
         }
         icon.addEventListener('click',()=>{
             menu.style.display='initial'
             menu.style.right='0'
             menu.style.transition="all cubic-bezier(0.19, 1, 0.22, 1) 1s;"
         })
+        cancel.addEventListener('click',()=>{
+            menu.style.display='none'
+            menu.style.right='-49'
+        })
+
     },[size])
   return (
     <div id='nav'>

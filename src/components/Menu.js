@@ -18,8 +18,9 @@ const Menu = () => {
   return (
     <>
         <div id='menu'>
+                <div id='cb'><div id='cancel'><i class="ri-close-line"></i> </div></div>
                 <div className='men' id='header'>
-                {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>} <i class="ri-close-line"></i> 
+                {isLoggedIn ? <p>🙋‍♂️{name}</p> : <p>🙋‍♂️ <span>Guest</span></p>}
                 </div>
                 <div className='men'>
                 <p>Orders</p><i class="ri-truck-line"></i>
