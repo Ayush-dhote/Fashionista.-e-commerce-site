@@ -176,6 +176,7 @@ input[type='number']::-webkit-outer-spin-button {
     }
     .subTotal{
         width: 45vw;
+        justify-content: center;
     }
     .btn{
         width: 45vw;
@@ -183,6 +184,9 @@ input[type='number']::-webkit-outer-spin-button {
     }
     .title h1{
         font-size: 25px;
+    }
+    .checkOut{
+        
     }
 
 }
