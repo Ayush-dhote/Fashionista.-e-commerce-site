@@ -88,7 +88,6 @@ html,body{
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
     backdrop-filter: blur(10px); /* Apply background blur */
     border-radius: 10px;
-
     display: none; 
 }
 #icon{
@@ -96,11 +95,25 @@ html,body{
     color: white;
 }
 .titleText{
+    width: max-content;
     margin-top: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
+.titleText h2{
+    white-space: nowrap;
+    animation: slideLeft 5s linear infinite; /* Adjust the animation duration as needed */
+    margin: 0;
+    padding: 0 20px;
+}
+@keyframes slideLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%); /* Slide to the left */
+    }
+  }
 
 @media (max-width:600px){
     #nav #left{
@@ -114,5 +127,8 @@ html,body{
     #i{
         margin-top: 5px;
         font-size: 20px;
+    }
+    .titleText h2{
+        font-size: 1rem;
     }
 }

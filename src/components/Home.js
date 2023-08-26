@@ -14,7 +14,22 @@ const Home = () => {
   return (
     <div id='home'>
         <Navbar />
-        <div className='titleText'><h2>Newly Arrived</h2></div>
+        <div className='titleText'>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+            <h2>Newly Arrived Products</h2>
+        </div>
         {/* <div id="loader">
         <div id="wrapperload">
             <div class="elem">
