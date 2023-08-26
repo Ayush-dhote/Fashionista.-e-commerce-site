@@ -84,10 +84,4 @@ html,body{
 }
 
 @media (max-width:600px){
-    .islog{
-        /* display: none; */
-    }
-    #cart{
-        display: none;
-    }
 }
