@@ -79,7 +79,7 @@ const Navbar = () => {
                 ) : (
                     <button className='islog' onClick={handleLogin}>Login</button>
                 )}
-                <div>
+                <div id='i'>
                     <i id='icon' class="ri-menu-line"></i>
                 </div>
                 <Menu/>

@@ -102,3 +102,16 @@ html,body{
     align-items: center;
 }
 
+@media (max-width:600px){
+    #nav #left{
+        width: 50vw;
+        padding-left: 10px;
+    }
+    #nav #right{
+        padding-left: 80px;
+        width: 50vw;
+    }
+    #i{
+        margin-top: 4px;
+    }
+}
