@@ -230,4 +230,7 @@ html,body{
     .titleText h2{
         font-size: 1rem;
     }
+    #loader{
+        font-size: 0.7rem;
+    }
 }
