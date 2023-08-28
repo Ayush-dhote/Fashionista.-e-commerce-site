@@ -64,7 +64,7 @@ const Navbar = () => {
         }
         icon.addEventListener('click',()=>{
             menu.style.display='initial'
-            menu.style.right='1vw'
+            menu.style.right='0'
         })
         cancel.addEventListener('click',()=>{
             menu.style.display='none'
