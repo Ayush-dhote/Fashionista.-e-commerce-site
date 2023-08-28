@@ -55,23 +55,25 @@ const Auth = () => {
         exist.addEventListener('click',()=>{
           login.style.left='50vw'
           login.style.opacity='1'
-          register.style.left='35vw'
+          register.style.left='30vw'
           register.style.opacity='0'
-
 
           login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
           register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
+          login.style.pointerEvents = 'initial';
+          register.style.pointerEvents = 'none'; 
         })
 
         dont.addEventListener('click',()=>{
+
           login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
           register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
           login.style.left='70vw'
           login.style.opacity='0'
           register.style.left='50vw'
           register.style.opacity='1'
-          
-          
+          login.style.pointerEvents = 'none';
+          register.style.pointerEvents = 'initial'; 
         })
       },[])
 
