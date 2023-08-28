@@ -52,16 +52,16 @@ const Auth = () => {
         const dont=document.getElementById('dont')
 
         exist.addEventListener('click',()=>{
+          login.style.pointerEvents = 'initial';
+          register.style.pointerEvents = 'none'; 
 
-          login.style.animation = 'rotateEffect 0.5s ease both';
-          register.style.animation = 'rotateOutEffect 0.5s ease both';
           login.style.left='50vw'
           login.style.opacity='1'
           register.style.left='35vw'
           register.style.opacity='0'
 
-          login.style.pointerEvents = 'initial';
-          register.style.pointerEvents = 'none'; 
+          register.style.animation = 'rotateOutEffect 0.5s ease both';
+          login.style.animation = 'rotateEffect 0.5s ease both';
         })
 
         dont.addEventListener('click',()=>{

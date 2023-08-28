@@ -184,10 +184,7 @@ html,body{
     .titleText h2{
         font-size: 1rem;
     }
-    #loader{
-        font-size: 0.7rem;
-    }
-    .islog{
+    #nav #right .islog{
         background-color: rgb(0, 0, 0);
     }
 }
