@@ -186,5 +186,6 @@ html,body{
     }
     #nav #right .islog{
         background-color: rgb(0, 0, 0);
+        width: 42vw;
     }
 }
