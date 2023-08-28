@@ -22,7 +22,7 @@
     border-radius: 5px;
     width: 230px;
     height: 350px;
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +74,10 @@
   }
 
   @media (max-width:600px){
-    .titleText{
+    /* .titleText{
       margin-top: 10px;
       margin-bottom: 10px;
-    }
+    } */
     .products {
       grid-template-columns: 1fr 1fr; /* Display 2 products per row */
       padding: 0;
@@ -86,7 +86,7 @@
       border-radius: 0;
       width: 49vw;
       border: 1px solid rgba(0, 0, 0, 0.135);
-      margin-top: 0px;
+      margin-top: 5px;
     }
     .img{
       width: 49vw;
