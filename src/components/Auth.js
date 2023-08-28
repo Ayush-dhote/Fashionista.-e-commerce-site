@@ -45,6 +45,35 @@ const Auth = () => {
             }
         })
       }
+      
+      useEffect(()=>{
+        const exist=document.getElementById('exist')
+        const login=document.getElementById('login')
+        const register=document.getElementById('register')
+        const dont=document.getElementById('dont')
+
+        exist.addEventListener('click',()=>{
+          login.style.left='50vw'
+          login.style.opacity='1'
+          register.style.left='35vw'
+          register.style.opacity='0'
+
+
+          login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
+          register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
+        })
+
+        dont.addEventListener('click',()=>{
+          login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
+          register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
+          login.style.left='70vw'
+          login.style.opacity='0'
+          register.style.left='50vw'
+          register.style.opacity='1'
+          
+          
+        })
+      },[])
 
   return (
     <div id='main'>
@@ -55,6 +84,7 @@ const Auth = () => {
                 <input name='email' type="email" required placeholder='Email'/>
                 <input name='password' id="password" type="password" min="5" max="15" required placeholder="password"></input>
                 <input id="button" type="submit"></input>
+                <h5 id='exist'>Already have account!</h5>
             </form>
         </div>
         <div id='login'>
@@ -63,6 +93,8 @@ const Auth = () => {
                 <input name='email' type="email" required placeholder='Email' />
                 <input name='password' id="lpassword" type="password" min="5" max="15" required placeholder="password"></input>
                 <input id="lbutton" type="submit"></input>
+                <h5 id='dont'>Create account</h5>
+
             </form>
         </div>
     </div>

@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 #main {
   min-width: 100vw;
   /* min-height: 100vh; */
@@ -24,14 +21,18 @@
 
 #register {
   top: 50vh;
-  left: 35vw;
+  left: 50vw;
 }
 
 #login {
   top: 50vh;
-  left: 65vw;
+  left: 70vw;
+  opacity: 0;
 }
-
+#exist,#dont{
+  margin-top: 2vh;
+  cursor: pointer;
+}
 form {
   display: flex;
   flex-direction: column;
