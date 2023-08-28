@@ -55,7 +55,7 @@ const Auth = () => {
         exist.addEventListener('click',()=>{
           login.style.left='50vw'
           login.style.opacity='1'
-          register.style.left='30vw'
+          register.style.left='35vw'
           register.style.opacity='0'
 
           login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
@@ -68,7 +68,7 @@ const Auth = () => {
 
           login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
           register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
-          login.style.left='70vw'
+          login.style.left='65vw'
           login.style.opacity='0'
           register.style.left='50vw'
           register.style.opacity='1'
