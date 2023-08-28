@@ -11,7 +11,6 @@ const Auth = () => {
       setUsers(existingUsers);
     }, []);
     
-    
     //   console.log(users);
     const navigate=useNavigate()
 
@@ -53,13 +52,14 @@ const Auth = () => {
         const dont=document.getElementById('dont')
 
         exist.addEventListener('click',()=>{
+
+          login.style.animation = 'rotateEffect 0.5s ease both';
+          register.style.animation = 'rotateOutEffect 0.5s ease both';
           login.style.left='50vw'
           login.style.opacity='1'
           register.style.left='35vw'
           register.style.opacity='0'
 
-          login.style.transition = 'left 0.5s ease, opacity 0.5s ease';
-          register.style.transition = 'left 0.5s ease, opacity 0.5s ease';
           login.style.pointerEvents = 'initial';
           register.style.pointerEvents = 'none'; 
         })
